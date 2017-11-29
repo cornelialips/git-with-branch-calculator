@@ -5,6 +5,6 @@ public class Calculator {
 		return firstNumber + secondNumber;
 	}
 	public int subract(int firstNumber, int secondNumber) {
-		return firstNumber - int secondNumber;
+		return firstNumber - secondNumber;
 	}
 }
