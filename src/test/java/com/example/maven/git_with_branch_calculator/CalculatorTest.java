@@ -66,5 +66,23 @@ public class CalculatorTest {
 		assertEquals(c.multiply(firstNumber, secondNumber), result);
 
 	}
+	@Test
+	public void testdivideMethod() {
+		Random random = new Random();
+		int firstNumber = 0;
+		int secondNumber = 0;
+		int result = 0;
+
+		for (int i = 0; i < 10; i++) {
+
+		}
+
+		firstNumber = random.nextInt(100);
+		secondNumber = random.nextInt(100);
+		result = firstNumber / secondNumber;
+		LOG.info("Testing the method divide with " + firstNumber + "and" + secondNumber);
+		assertEquals(c.division(firstNumber, secondNumber), result);
+
+	}
 }
 
